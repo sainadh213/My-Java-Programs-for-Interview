@@ -1,7 +1,7 @@
 package interview;
 
 public class Capital {
-
+//This line added through GitHub
 	public static void main(String[] args) {
 		String name="my name is sainadh";
 		String[] word = name.split(" ");
