@@ -6,7 +6,10 @@ public class CurrentTime {
 
 	public static void main(String[] args) {
 		LocalTime localTime = LocalTime.now();
-		System.out.println(localTime);
+		int hour = localTime.getHour();
+		int minutes = localTime.getMinute();
+		int seconds = localTime.getSecond();
+		System.out.println(localTime+"\n"+hour+"\n"+minutes+"\n"+seconds);
 
 	}
 
