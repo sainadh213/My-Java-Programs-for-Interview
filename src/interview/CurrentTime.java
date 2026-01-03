@@ -1,9 +1,12 @@
 package interview;
 
+import java.time.LocalTime;
+
 public class CurrentTime {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		LocalTime localTime = LocalTime.now();
+		System.out.println(localTime);
 
 	}
 
